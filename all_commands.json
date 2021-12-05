@@ -1,0 +1,18 @@
+    [
+        {
+            "id": "!help",
+            "description": "Well ***duh***"
+        },
+        {
+            "id": "!info",
+            "description": "About the bot"
+        },
+        {
+            "id": "!sum",
+            "description": "Adds up two or more arguments"
+        },
+        {
+            "id": "!ping",
+            "description": "Pong!"
+        }
+    ]
