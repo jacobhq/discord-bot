@@ -35,9 +35,11 @@ client.on("messageCreate", function (message) {
     }
 
     else if (command === "help") {
-        let msg
-        for (let i in commands) {
-            msg.contact('`' + commands[i].id + '`' + ' - ' + commands[i].id)
+        var msg = ''
+        for (let index = 0; index < commands.length; index++) {
+            const element = commands[index];
+            let proc = '`' + element.id + '`' + ' - ' + element.description
+            msg += proc + "\n";
         }
         message.reply(msg)
     }
